@@ -1,4 +1,4 @@
-# Excel_Project_Analytics
+e# Excel_Project_Analytics
  
 # Excel Salary Dashboard
 
@@ -78,4 +78,29 @@ IF(
 )
 ```
 - **Purpose**: Computes median salary for selected job titles, locations, and work types.
-Key Features: Multi-condition filtering and array-based formula for tailored results.
+- **Key Features**: Multi-condition filtering and array-based formula for tailored results.
+ #### **Job Schedule Type Count**
+ ```excel
+=FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
+```
+**Purpose**: Creates a unique list of valid job schedule types while filtering out invalid or duplicate entries.
+**Usage**: Populates the background table, ensuring accurate input data.
+
+
+### ❎ Data Validation
+
+Functionality: Implemented data validation rules to restrict user inputs to pre-approved job schedule types.
+
+**Benefits:**
+
+🚫 **Reduces errors and inconsistencies.**
+
+🎯 **Improves data integrity.**
+
+👥 **Enhances overall usability of the dashboard.**
+
+
+### 📊 Conclusion
+This Excel Salary Dashboard provides valuable insights into salary trends for various data-related job roles. By leveraging data from my Excel course, it equips users with the tools to make informed career decisions, exploring the influence of job titles, locations, and work types on salaries.
+
+Feel free to explore, adapt, and utilize this project for your own data analysis needs!
