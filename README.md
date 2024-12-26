@@ -15,9 +15,10 @@ The dataset originates from my **Excel course**, which emphasizes mastering Exce
 
 ## 📁 Dashboard File
 
-- Download the dashboard: **[1_Salary_Dashboard.xlsx](1_Salary_Dashboard.xlsx)**  
+- Download the dashboard: **[Salary_Dashboard.xlsx](project)**  
 - Screenshot preview:  
-  ![Salary Dashboard](1_Salary_Dashboard.png)
+ ![Dashboard Screenshot](dashboard.png)
+
 
 ---
 
